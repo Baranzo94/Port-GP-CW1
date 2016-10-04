@@ -39,43 +39,9 @@ public class PlayerScriptIsland : MonoBehaviour {
 			GetComponent<AudioSource>().PlayOneShot(jumpSound);
 		}
 		
-		//print(PlayerPrefs.GetInt("Score"));
-	
-	//if(gun.active)
-	//	{
-	//		if(Input.GetButtonDown ("Fire1")){
-	//			gun.audio.Play();
-	//			Ray ray=Camera.main.ScreenPointToRay
-	//				(Input.mousePosition);
-	//			RaycastHit hit=new RaycastHit();
-	//			if(Physics.Raycast(ray,out hit))
-	//			{
-	//				if(hit.collider.gameObject.tag=="Targets")
-	//				{
-	//					Debug.Log ("Hit the barrel");
-	//					TargetScript targetScript=
-	//								hit.collider.gameObject.GetComponent<TargetScript>();
-	//					if(targetScript!=null)
-	//					{
-	//						
-	//								targetScript.HitApplyForce(ray.direction,1000.0f);
-	//					}			
-	//					score++;
-	//				}
-	//			}
-	//		}
-	//	}
+
 	
 	}
 	
-	//void OnControllerColliderHit(ControllerColliderHit hit)
-	//{
-	//	if(hit.gameObject.name=="machineGun")
-	//	{
-	//		Debug.Log ("Object picked up" +
-	//										hit.gameObject.name);
-	//		Destroy(hit.gameObject);
-	//		gun.active=true;
-	//	}
-	//}                    
+                   
 }

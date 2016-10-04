@@ -21,8 +21,8 @@ public class MainMenuScript : MonoBehaviour {
 		GUI.DrawTexture(new
 		Rect(0,0,Screen.width,Screen.height),backGroundTexture);
 		
-		nameText=GUI.TextField (new Rect(Screen.width/2-
-		100.0f,50.0f,100.0f,20.0f),nameText);
+		/*nameText=GUI.TextField (new Rect(Screen.width/2-
+		100.0f,50.0f,100.0f,20.0f),nameText);*/
 		int buttonyPosition=buttonYStart;
 	
 		GameObject gameData=GameObject.Find ("GameData");
@@ -46,7 +46,7 @@ public class MainMenuScript : MonoBehaviour {
 		{
 			Application.Quit ();
 		}
-			GUI.Label(new Rect (600, 200, 200, 200), "The Barrel Hunting Game");
+			GUI.Label(new Rect (700, 200, 200, 200), "The Barrel Hunting Game");
 		}
 	}
 	

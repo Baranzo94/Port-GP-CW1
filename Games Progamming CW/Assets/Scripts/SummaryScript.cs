@@ -10,9 +10,9 @@ public class SummaryScript : MonoBehaviour {
 		GUI.DrawTexture(new
 		Rect(0,0,Screen.width,Screen.height),backGroundTexture);
 		
-		print(PlayerPrefs.GetInt("Score"));
+		//print(PlayerPrefs.GetInt("Score"));
 		
-		GUI.Label (new Rect (600, 500, 200, 200), "Well Done you are merciless barrel hunter and survivor of crashes and flaming shapes");
+		GUI.Label (new Rect (600, 500, 200, 200), "Well Done you are merciless barrel hunter and survivor of crashes");
 		
 		
 		if (GUI.Button (new Rect (625, 600, 50, 50),"Quit"))
@@ -22,13 +22,3 @@ public class SummaryScript : MonoBehaviour {
 	}
 }
 
-	// Use this for initialization
-	//void Start () {
-	
-	//}
-	
-	// Update is called once per frame
-	//void Update () {
-	
-	//}
-//}
