@@ -15,6 +15,8 @@ public class LevelEndScript : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider x)
 	{
+		Screen.lockCursor = false;
+
 		if (x.GetComponent<Collider>().gameObject.name=="Player")
 		{
 			Application.LoadLevel("IslandLevel");
